@@ -94,6 +94,7 @@ git status
 generar un merge de rama a fusionar
 git merge master developer
 
+<<<<<<< HEAD
 The key fingerprint is:
 SHA256:bRGMO/3Qdo5YO0DbhjteKTNMPb/IlmsZT0WiKNQZYc4 daaponte@stefanini.com
 The key's randomart image is:
@@ -112,5 +113,8 @@ The key's randomart image is:
 Agent pid 996
 
 
+=======
+cambio para hacer cambios en github
+>>>>>>> 17eba6309064a40d652d79c5f835bda16a24fadd
 
 
