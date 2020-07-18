@@ -94,6 +94,23 @@ git status
 generar un merge de rama a fusionar
 git merge master developer
 
+The key fingerprint is:
+SHA256:bRGMO/3Qdo5YO0DbhjteKTNMPb/IlmsZT0WiKNQZYc4 daaponte@stefanini.com
+The key's randomart image is:
++---[RSA 4096]----+
+|         +=+     |
+|        o+=.  . .|
+|       . +EB . o |
+|        +.O.X . .|
+|        S=oX O . |
+|         .O O +  |
+|         . B O . |
+|          . B o  |
+|           o..   |
++----[SHA256]-----+
+
+Agent pid 996
+
 
 
 
