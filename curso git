@@ -91,6 +91,9 @@ Crear un nuevo brach
 git checkout <rama>
 git status
 
+generar un merge de rama a fusionar
+git merge master developer
+
 
 
 
