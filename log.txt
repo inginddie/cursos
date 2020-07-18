@@ -1,0 +1,23 @@
+commit 039cfac109f4d6912d2f21e96fe43ecc34524b2d
+Author: diego bustos <dbustos@itcol.com>
+Date:   Fri Jul 17 19:19:38 2020 -0500
+
+    configuración code
+
+commit 1d075a163150c1a887f19b4134595341ff734066
+Author: diego bustos <dbustos@itcol.com>
+Date:   Fri Jul 17 19:12:58 2020 -0500
+
+    crear un html y su css
+
+commit dfc5d3e371b6cfb9fd6d172807814e2e680ebe12
+Author: diego bustos <dbustos@itcol.com>
+Date:   Fri Jul 17 17:57:31 2020 -0500
+
+    versión2
+
+commit 3c0f98d7a07536f3e235efc5348f9768253a9f5f
+Author: Diego Arturo Bustos Aponte <dbustos@itcol.com>
+Date:   Fri Jul 17 17:40:39 2020 -0500
+
+    versión 1
