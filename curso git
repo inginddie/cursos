@@ -61,6 +61,9 @@ cambiar el usuario
 git config --global user.mail "diego bustos"
 cambiar el correo
 
+Cuando deseo realizar un commit a un archivo que ya tiene una versión
+git commit -am  "xxxx"
+
 deseas eliminar los archivos hasta del disco
 git rm --force
 
