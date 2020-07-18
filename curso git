@@ -87,5 +87,10 @@ git log > log.txt - guardar los logs en un archivo txt
 
 git@github.com:inginddie/icetex.git
 
+Crear un nuevo brach
+git checkout <rama>
+git status
+
+
 
 
