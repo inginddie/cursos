@@ -67,6 +67,7 @@ git commit -am  "xxxx"
 deseas eliminar los archivos hasta del disco
 git rm --force
 
+TODO LO QUE TENGA QUE VER CON EL LOG DE GIT
 git log --oneline - Te muestra el id commit y el título del commit.
 git log --decorate- Te muestra donde se encuentra el head point en el log.
 git log --stat - Explica el número de líneas que se cambiaron brevemente.
@@ -85,7 +86,7 @@ git log – index.html- Busca los commits en un archivo en específico.
 git log -S “Por contenido”- Buscar los commits con el contenido dentro del archivo.
 git log > log.txt - guardar los logs en un archivo txt
 
-git@github.com:inginddie/icetex.git
+
 
 Crear un nuevo brach
 git checkout <rama>
@@ -94,6 +95,19 @@ git status
 generar un merge de rama a fusionar
 git merge master developer
 
+PUBLICAR EN EL ORIGIN O github
+git remote -v
+GIT PULL ORIGIN master
+Puplicar en master primero y que quede actualizado
+get push origin master
+
+
+GENERACIÓN DE LLAVE PUBLICA  ( debe ser en el home)
+ssh-keygen -t rsa -b 4096 -C "email"
+eval $(ssh-agent -s)
+ssh-add ~.ssh/archivo llave 
+
+git@github.com:inginddie/icetex.git
 The key fingerprint is:
 SHA256:bRGMO/3Qdo5YO0DbhjteKTNMPb/IlmsZT0WiKNQZYc4 daaponte@stefanini.com
 The key's randomart image is:
@@ -126,8 +140,16 @@ The key's randomart image is:
 
 Agent pid 2082
 
-
-
-cambio para hacer cambios en github
+CREAR TAGS
+Crear un nuevo tag y asignarlo a un commit:
+ git tag -a nombre-del-tag id-del-commit.
+Borrar un tag en el repositorio local: 
+ git tag -d nombre-del-tag.
+Listar los tags de nuestro repositorio local:
+ git tag o git show-ref --tags.
+Publicar un tag en el repositorio remoto:
+ git push origin --tags.
+Borrar un tag del repositorio remoto:
+ git tag -d nombre-del-tag y git push origin :refs/tags/nombre-del-tag.
 
 
