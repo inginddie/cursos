@@ -86,7 +86,8 @@ git log – index.html- Busca los commits en un archivo en específico.
 git log -S “Por contenido”- Buscar los commits con el contenido dentro del archivo.
 git log > log.txt - guardar los logs en un archivo txt
 
-
+VER TODO LA HISTORIA EN UN SOFTWARE DE GIT
+gitk
 
 Crear un nuevo brach
 git checkout <rama>
@@ -109,21 +110,6 @@ ssh-add ~.ssh/archivo llave
 
 git@github.com:inginddie/icetex.git
 The key fingerprint is:
-SHA256:bRGMO/3Qdo5YO0DbhjteKTNMPb/IlmsZT0WiKNQZYc4 daaponte@stefanini.com
-The key's randomart image is:
-+---[RSA 4096]----+
-|         +=+     |
-|        o+=.  . .|
-|       . +EB . o |
-|        +.O.X . .|
-|        S=oX O . |
-|         .O O +  |
-|         . B O . |
-|          . B o  |
-|           o..   |
-+----[SHA256]-----+
-
-The key fingerprint is:
 SHA256:MgVVxxSb1ieGHJ6LjNtw8oyBnZHfLBHHty54heUYS78 daaponte@stefanini.com
 The key's randomart image is:
 +---[RSA 4096]----+
@@ -137,7 +123,6 @@ The key's randomart image is:
 |                 |
 |                 |
 +----[SHA256]-----+
-
 Agent pid 2082
 
 CREAR TAGS
@@ -152,4 +137,7 @@ Publicar un tag en el repositorio remoto:
 Borrar un tag del repositorio remoto:
  git tag -d nombre-del-tag y git push origin :refs/tags/nombre-del-tag.
 
-
+Crear una rama en el repositorio local: 
+ git branch nombre-de-la-rama o git checkout -b nombre-de-la-rama.
+Publicar una rama local al repositorio remoto: 
+ git push origin nombre-de-la-rama.
