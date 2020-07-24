@@ -1,0 +1,39 @@
+TIPS PYHTON Y FORMULACIÓN
+
+1) OPERADORES
+suma   1+1
+resta  1-1
+multip 1*1
+div    1/1
+div euclidiana 1//1
+residuo división 1 % 1
+potencia 1**1
+Pyhton respeta que primero se multiplique y despues sume, ejemplo: 5+5*2 =15
+raiz cuadrada  
+import math
+math.sqrt(9)
+
+2) VARIABLE
+guarda objetos
+no puede comenzar por un numero
+las palabras deben estar en minuscula
+y si tenemos varias palabras pegadas con _
+ejemplo:
+num1 = 1
+num2 = 2
+num_res = num1 + num2
+print(num_res)
+3
+
+3) NUMEROS
+    numeros enteros
+        5
+    numeros de punto flotante
+        5.1
+        debe ser en . no en ,
+    texto(cadena de caracteres)
+        xxx (string)
+        nombre = "diego"
+        concatenar  nombre 1 + nombre 2
+    booleanos (true false)
+        
