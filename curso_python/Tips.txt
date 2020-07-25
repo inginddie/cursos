@@ -47,3 +47,31 @@ and para comparar si dos valores son verdaderos.
 -> Compara si es menor que otro valor.
 >= igual o mayor que el valor a comparar.
 <= igual o menor que el valor a comparar.
+
+CONDICIONALES
+if
+elif = cuando necesitas otro if 
+else
+
+FUNCIÓN
+def 
+
+CONVERTIR texto
+ejemplo:
+variable.upper() MAYUSCULAS
+variable.capitalize() PIRMERA MAYUSCULAS
+variable.lower() MINUSCULAS
+QIUTAR espacios
+variable.strip()
+REEMPLAZAR una letra por otra
+variable.replace(´o', 'a') 
+
+CONTAR NUmero de caracteres
+len(frase)
+
+CORTAR palabras
+variable[0:3]  te imprime los trs primeros caracteres
+variable[0:3:2] imprimer caracteres cada dos caracteres
+
+PALINDROMO
+
