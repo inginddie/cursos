@@ -1,0 +1,4 @@
+CADENAS 8STRINGS)
+
+len(longitud)
+indexing(indexar)
