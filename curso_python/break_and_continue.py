@@ -10,8 +10,9 @@ def run():
     #     print(i)
     #     if i == 5678:
     #         break
-#
-    texto =input('esccribe un texto:  ')
+
+#CICLO CON BREAK PERO CON LETRAS
+    texto =input('escribe un texto:  ')
     for letra in texto:
         if letra == 'o':
             break

@@ -64,7 +64,7 @@ variable.lower() MINUSCULAS
 QIUTAR espacios
 variable.strip()
 REEMPLAZAR una letra por otra
-variable.replace(´o', 'a') 
+variable.replace(´o', 'a')
 
 CONTAR NUmero de caracteres
 len(frase)
@@ -73,5 +73,6 @@ CORTAR palabras
 variable[0:3]  te imprime los trs primeros caracteres
 variable[0:3:2] imprimer caracteres cada dos caracteres
 
-PALINDROMO
+BUCLE
+WHILE mientras
 
