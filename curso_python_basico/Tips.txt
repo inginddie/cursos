@@ -75,21 +75,4 @@ variable[0:3:2] imprimer caracteres cada dos caracteres
 
 BUCLE
 WHILE mientras
-FOR
 
-LISTAS
-variable = [5, 4, 3, 2, 1]
-metodo
-variable.append() para agregar mas datos a una LISTAS
-variable.pop() eliminar un valor de la LISTAS
-variable[::-1] imprime la lista con los resultados al reves
-variable[1:3] trae los resultados de un rango de 1 al 3
-
-
-for var1 in var2
-    print(var1)
-#imprime los elementos de la lista de la var1
-
-TUPLAS
-#las tuplas no se dejan eliminar o agregar data, son inmutables
-mi_tupla = (1, 2, 3, 4, 5)
