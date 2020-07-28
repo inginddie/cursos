@@ -2,3 +2,8 @@ CADENAS 8STRINGS)
 
 len(longitud)
 indexing(indexar)
+
+
+APROXIMACION DE SOLUCIONES
+enumeración exhaustiva pero no respyuesta exacta
+poder aproximar solcuiones con una margen de error
