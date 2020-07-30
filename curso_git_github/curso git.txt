@@ -141,3 +141,6 @@ Crear una rama en el repositorio local:
  git branch nombre-de-la-rama o git checkout -b nombre-de-la-rama.
 Publicar una rama local al repositorio remoto: 
  git push origin nombre-de-la-rama.
+
+git remote add origin http://dbustos:Julio2920*@azure.stefaninicolombia.com/ConstructoraBolivar/stefanini-chapter-analytics-RPA-PROYECTOS/_git/stefanini-chapter-analytics-RPA-PROYECTOS.daaponte
+git push -u origin --all
