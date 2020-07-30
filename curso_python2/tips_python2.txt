@@ -7,3 +7,11 @@ indexing(indexar)
 APROXIMACION DE SOLUCIONES
 enumeración exhaustiva pero no respyuesta exacta
 poder aproximar solcuiones con una margen de error
+
+
+FACTORIALES
+n! = n *(n-1)!
+4! = 4 *(3)!
+3! = 3 *(2)!
+2! = 2 *(1)!
+1! = 1

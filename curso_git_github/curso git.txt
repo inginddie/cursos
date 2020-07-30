@@ -106,7 +106,7 @@ get push origin master
 GENERACIÓN DE LLAVE PUBLICA  ( debe ser en el home)
 ssh-keygen -t rsa -b 4096 -C "email"
 eval $(ssh-agent -s)
-ssh-add ~.ssh/archivo llave 
+ssh-add ~.ssh/id_rsa 
 
 git@github.com:inginddie/icetex.git
 The key fingerprint is:
