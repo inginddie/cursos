@@ -60,6 +60,8 @@ git config --global user.name "diego bustos"
 cambiar el usuario
 git config --global user.mail "diego bustos"
 cambiar el correo
+git config --global --edit
+editar los user name y mail
 
 Cuando deseo realizar un commit a un archivo que ya tiene una versión
 git commit -am  "xxxx"
@@ -144,3 +146,4 @@ Publicar una rama local al repositorio remoto:
 
 git remote add origin http://dbustos:Julio2920*@azure.stefaninicolombia.com/ConstructoraBolivar/stefanini-chapter-analytics-RPA-PROYECTOS/_git/stefanini-chapter-analytics-RPA-PROYECTOS.daaponte
 git push -u origin --all
+
